@@ -2,6 +2,10 @@ const express = require("express");
 
 const server = express();
 
+// make github repo
+//set settings in remote github repo
+//make sure not to push to fac repo
+
 server.get("/", (req, res) => {
   res.send(`
     <!doctype html>
