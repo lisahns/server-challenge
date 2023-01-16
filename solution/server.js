@@ -6,7 +6,7 @@ server.get("/", (req, res) => {
   res.send(`<h1>Hello Express</h1>`);
 });
 
-server.get("/colour", (req, res) => {
+server.get("/colour/:hex", (req, res) => {
   const hex = req.query.hex || "ffffff"; // defaults to white
   const html = `
     <style>
