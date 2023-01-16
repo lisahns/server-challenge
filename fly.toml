@@ -1,11 +1,12 @@
-# fly.toml file generated for lisa-test on 2023-01-16T14:21:07Z
+# fly.toml file generated for test-lisa on 2023-01-16T14:49:18Z
 
-app = "lisa-test"
+app = "test-lisa"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [env]
+  PORT = "8080"
 
 [experimental]
   auto_rollback = true

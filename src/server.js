@@ -12,7 +12,7 @@ server.get("/", (req, res) => {
     <html>
     <head>
     <meta charset+"utf-8">
-    <title>Home, hi</title>
+    <title>Home</title>
     </head>
     <body>
     <h1>Hello Express</h1>
